@@ -11,9 +11,9 @@ i.e send() ,recv()
 How to compile:
 ---------------
 Under MSVC++
-Create a simple console project myinject.exe, which is a console application. Compile myinject.cpp into an executable. 
+Create a simple console based project. Add myinject.cpp, compile myinject.cpp into an executable. 
 
-Create another simple DLL project for mydll.dll. Compile mydll.dll into a DLL.
+Create another DLL based project. Add mydll.cpp and hookapi.h. Compile mydll.cpp into a DLL.
 
 
 How to run:
