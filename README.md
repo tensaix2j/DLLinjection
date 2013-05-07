@@ -1,4 +1,3 @@
-
 DLL Injection
 =============
 
@@ -17,12 +16,11 @@ Create another DLL based project. Add mydll.cpp and hookapi.h. Compile mydll.cpp
 
 How to run:
 ------------
-First run the targeted program which uses winsock( ws2_32.dll in particular) you want to inject, eg: mirc.exe
-You can check the dependency DLL using the depends.exe tool found under MSVC tool.
 
 Run myinject.exe with the following arguments:
 
 	myinject.exe <Process Name to inject> <DLL path to inject>
+	You can get the running process name in your task manager or enter cmd tasklist in the command prompt.
 
 example:
 
